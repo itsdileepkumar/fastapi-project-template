@@ -1,0 +1,69 @@
+// Team Model
+{
+    "id": "string",
+    "name": "string",
+    "desc": "string",
+    "type": "string",
+    "members": ["string"],
+    "owners": ["string"],
+    "props": {},
+    "tenant_id": "string",
+    "crtd_at": "string",
+    "uptd_at": "string"
+}
+
+// User Model
+{
+    "id": "string",
+    "name": "string",
+    "email": "string",
+    "owner_teams": [],
+    "member_teams": [],
+    "owner_channels": [],
+    "member_channels": [],
+    "props": {},
+    "tenant_id": "string",
+    "crtd_at": "string",
+    "uptd_at": "string"
+}
+
+// Channels Model
+
+{
+    "id": "string",
+    "name": "string",
+    "desc": "string",
+    "props": {},
+    "team_id": "string",
+    "members": ["string"],
+    "owners": ["string"],
+    "tenant_id": "string",
+    "crtd_at": "string",
+    "uptd_at": "string"
+}
+
+// Messages Model
+{
+    "id": "string",
+    "text": "string",
+    "props": {},
+    "team_id": "string",
+    "channel_id": "string",
+    "sender_id": "string",
+    "tenant_id": "string",
+    "crtd_at": "string",
+    "uptd_at": "string"
+}
+
+// Members Model
+
+{
+    "id": "string",
+    "owner_teams": ["string"],
+    "member_teams": ["string"],
+    "tenant_id": "string",
+    "crtd_at": "string",
+    "uptd_at": "string"
+}
+
+
